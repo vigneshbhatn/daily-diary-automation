@@ -1,0 +1,170 @@
+[
+  {
+    "date": "2026-02-04",
+    "summary": "Optimized the spatial coordinate calculation system. Developed a relative-scaling algorithm to ensure bounding box persistence across varying display resolutions and aspect ratios.",
+    "hours": 9.0,
+    "reference_link": "https://docs.opencv.org/4.x/da/d35/classcv_1_1Rect__.html",
+    "learnings": "Coordinate normalization and spatial data integrity.",
+    "skills": ["python"]
+  },
+  {
+    "date": "2026-02-05",
+    "summary": "Conducted research on Vision-Language Models (VLM) for zero-shot entity extraction. Analyzed LayoutLMv3 performance on the DocVQA dataset to evaluate potential backbone upgrades.",
+    "hours": 8.5,
+    "reference_link": "https://arxiv.org/abs/2204.08387",
+    "learnings": "Evaluating Transformer-based backbones for document entity recognition.",
+    "skills": ["machine learning"]
+  },
+  {
+    "date": "2026-02-06",
+    "summary": "Performed comprehensive error analysis on the 'seiton-ai-ocr-v1' inference engine. Categorized OCR failure points by analyzing Character Error Rate (CER) and Word Error Rate (WER).",
+    "hours": 8.0,
+    "reference_link": "https://towardsdatascience.com/evaluating-ocr-performance-3343a4e98f48",
+    "learnings": "Systematic benchmarking and ML model performance profiling.",
+    "skills": ["machine learning"]
+  },
+  {
+    "date": "2026-02-09",
+    "summary": "Refactored the FastAPI gateway to support asynchronous document processing using BackgroundTasks, reducing initial request-response latency for multi-page uploads.",
+    "hours": 9.5,
+    "reference_link": "https://fastapi.tiangolo.com/tutorial/background-tasks/",
+    "learnings": "Scaling AI backends for high-concurrency workloads.",
+    "skills": ["python"]
+  },
+  {
+    "date": "2026-02-10",
+    "summary": "Developed a specialized table reconstruction algorithm. Implemented proximity-based cell merging to accurately reconstruct tabular data from raw spatial coordinates.",
+    "hours": 8.5,
+    "reference_link": "https://arxiv.org/abs/2103.08880",
+    "learnings": "Heuristic and ML-based table structure reconstruction.",
+    "skills": ["python"]
+  },
+  {
+    "date": "2026-02-11",
+    "summary": "Optimized CUDA memory allocation during batch inference. Implemented a PyTorch-based cache-clearing mechanism to resolve OOM (Out of Memory) errors during high-resolution processing.",
+    "hours": 9.0,
+    "reference_link": "https://pytorch.org/docs/stable/notes/cuda.html",
+    "learnings": "Managing GPU resource allocation in deep learning inference.",
+    "skills": ["pytorch", "machine learning"]
+  },
+  {
+    "date": "2026-02-12",
+    "summary": "Engineered the Markdown Export Module. Designed a schema-mapping engine that converts detected document entities into structured, LLM-ready Markdown text.",
+    "hours": 8.0,
+    "reference_link": "https://commonmark.org/",
+    "learnings": "Transforming unstructured spatial data into semantic text formats.",
+    "skills": ["python"]
+  },
+  {
+    "date": "2026-02-13",
+    "summary": "Integrated an interactive Coordinate-to-Image mapping layer. Developed the backend logic for visual validation, allowing real-time bounding box inspection in the staging environment.",
+    "hours": 8.5,
+    "reference_link": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+    "learnings": "Bridging ML metadata with frontend visualization systems.",
+    "skills": ["python"]
+  },
+  {
+    "date": "2026-02-16",
+    "summary": "Executed end-to-end stress testing for the 'seiton-ai-ocr-v1' pipeline. Profiled system performance under sustained load to identify bottlenecks in image decoding and model inference.",
+    "hours": 9.0,
+    "reference_link": "https://www.geeksforgeeks.org/software-testing-stress-testing/",
+    "learnings": "Reliability engineering and performance profiling for AI services.",
+    "skills": ["python", "machine learning"]
+  },
+  {
+    "date": "2026-02-17",
+    "summary": "Refined the paragraph clustering algorithm. Implemented dynamic spatial distance calculations to improve reading order accuracy in multi-column layouts.",
+    "hours": 8.5,
+    "reference_link": "https://scikit-learn.org/stable/modules/clustering.html",
+    "learnings": "Applying spatial clustering algorithms to document layout parsing.",
+    "skills": ["python"]
+  },
+  {
+    "date": "2026-02-18",
+    "summary": "Automated the generation of API documentation via Swagger. Defined detailed Pydantic models to ensure strict data validation for the Document AI clone's REST endpoints.",
+    "hours": 8.0,
+    "reference_link": "https://swagger.io/",
+    "learnings": "Implementing self-documenting and type-safe API architectures.",
+    "skills": ["python"]
+  },
+  {
+    "date": "2026-02-19",
+    "summary": "Optimized the image ingestion pipeline using ThreadPoolExecutor for concurrent page resizing and normalization, achieving a ~25% reduction in total turnaround time.",
+    "hours": 9.0,
+    "reference_link": "https://docs.python.org/3/library/concurrent.futures.html",
+    "learnings": "Optimizing IO-bound tasks in data-intensive AI pipelines.",
+    "skills": ["python"]
+  },
+  {
+    "date": "2026-02-20",
+    "summary": "Conducted a technical walkthrough of the 'seiton-ai-ocr-v1' prototype. Demonstrated 92% accuracy on complex entity extraction tasks during the internal sprint review.",
+    "hours": 8.5,
+    "reference_link": "https://www.atlassian.com/blog/productivity/how-to-give-a-killer-demo",
+    "learnings": "Communicating complex ML milestones to technical stakeholders.",
+    "skills": ["machine learning"]
+  },
+  {
+    "date": "2026-02-23",
+    "summary": "Updated the technical methodology for the Document AI research paper. Integrated comparative benchmarks between regional OCR engines and the 'seiton-ai-ocr-v1' baseline.",
+    "hours": 9.0,
+    "reference_link": "https://www.overleaf.com/learn",
+    "learnings": "Translating engineering results into formalized academic documentation.",
+    "skills": ["machine learning"]
+  },
+  {
+    "date": "2026-02-24",
+    "summary": "Finalized the Path-Traceability logic for the inference engine. Implemented robust path handling using Pathlib to ensure cross-platform compatibility for data storage and retrieval.",
+    "hours": 8.5,
+    "reference_link": "https://docs.python.org/3/library/pathlib.html",
+    "learnings": "Robust file system management and project data integrity.",
+    "skills": ["python"]
+  },
+  {
+    "date": "2026-02-25",
+    "summary": "Evaluated a fine-tuned LayoutLM checkpoint for field-specific entity extraction. Analyzed the performance delta between standard OCR and entity-aware Transformer models.",
+    "hours": 9.0,
+    "reference_link": "https://pypi.org/project/jiwer/",
+    "learnings": "Evaluating fine-tuned Transformer models for document understanding.",
+    "skills": ["machine learning"]
+  },
+  {
+    "date": "2026-02-26",
+    "summary": "Implemented a specialized data augmentation suite using Albumentations. Integrated elastic transforms and brightness jitter to improve model robustness against noisy document scans.",
+    "hours": 8.5,
+    "reference_link": "https://albumentations.ai/",
+    "learnings": "Enhancing model generalization through advanced data augmentation.",
+    "skills": ["python", "machine learning"]
+  },
+  {
+    "date": "2026-02-27",
+    "summary": "Concluded the sprint by merging optimized OCR features into the production branch. Updated the LogicBrackets README with detailed deployment guides and tech-stack specifications.",
+    "hours": 8.0,
+    "reference_link": "https://google.github.io/styleguide/pyguide.html",
+    "learnings": "Maintaining production-grade code quality and documentation standards.",
+    "skills": ["git", "python"]
+  },
+  {
+    "date": "2026-02-28",
+    "summary": "Optimized the Intersection over Union (IoU) thresholds for the Region Proposal Network (RPN). Implemented morphological post-processing to improve character connectivity in fragmented layouts.",
+    "hours": 8.0,
+    "reference_link": "https://docs.opencv.org/4.x/d9/d61/tutorial_py_morphological_ops.html",
+    "learnings": "Refining spatial segmentation accuracy in deep learning pipelines.",
+    "skills": ["python", "machine learning"]
+  },
+  {
+    "date": "2026-03-02",
+    "summary": "Integrated a PyTorch-based Vision Transformer (ViT) backbone. Conducted ablation studies on feature fusion techniques to optimize structural recognition of tabular document data.",
+    "hours": 9.5,
+    "reference_link": "https://pytorch.org/vision/stable/models.html#vision-transformer-vit",
+    "learnings": "Utilizing self-attention mechanisms for long-range spatial dependencies.",
+    "skills": ["pytorch", "machine learning"]
+  },
+  {
+    "date": "2026-03-03",
+    "summary": "Refactored the core inference engine to support multi-stage asynchronous processing. Decoupled detection and recognition logic to maximize GPU throughput and validated via CER benchmarks.",
+    "hours": 9.0,
+    "reference_link": "https://docs.python.org/3/library/multiprocessing.html",
+    "learnings": "Optimizing resource allocation for high-throughput AI inference.",
+    "skills": ["python", "git"]
+  }
+]
