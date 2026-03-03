@@ -21,13 +21,6 @@ pip install selenium webdriver-manager python-dotenv
 
 **2. Configure your credentials (not needed now)**
 
-Create a `.env` file in the project root:
-
-```env
-VTU_EMAIL=your@email.com
-VTU_PASS=yourpassword
-```
-
 **3. Fill in your diary entries**
 
 Edit `diary_data.json` with your internship details using the format below:
@@ -40,7 +33,7 @@ Edit `diary_data.json` with your internship details using the format below:
     "reference_link": "https://docs.example.com/api",
     "learnings": "Understood how to handle authentication headers and parse JSON responses.",
     "hours": "6.5",
-    "skills": ["Python", "REST API", "Postman"]
+    "skills": ["Python"]
   },
   {
     "date": "2026-02-04",
@@ -48,12 +41,12 @@ Edit `diary_data.json` with your internship details using the format below:
     "reference_link": "https://docs.github.com/actions",
     "learnings": "Learned how to write workflow YAML files and trigger automated deployments.",
     "hours": "7",
-    "skills": ["GitHub Actions", "DevOps", "YAML"]
+    "skills": ["git"]
   }
 ]
 ```
 
-> **Note:** `date` must be in `YYYY-MM-DD` format. `reference_link` and `skills` are optional.
+> **Note:** `date` must be in `YYYY-MM-DD` format. `skills` should contain only the skills that present on the website .
 
 ---
 
@@ -67,11 +60,11 @@ python script.py
 
 ## How It Works
 
-1. Browser window opens and logs in automatically using your `.env` credentials
+1. Browser window opens and manually enter the login credentials
 2. For each diary entry in `diary_data.json`, the script:
    - Navigates to the diary page
    - Selects the internship from the dropdown
-   - Picks the correct date from the calendar
+   - Manually select the date for entry.
    - Fills in summary, reference link, learnings, and hours
    - Adds skills
    - Clicks **Save**
@@ -85,7 +78,6 @@ python script.py
 | Issue | Fix |
 |-------|-----|
 | `diary_data.json not found` | Make sure the file exists in the same folder as the script |
-| Login fails | Double-check your `.env` credentials |
 | Entry skipped with warning | Check that `date`, `summary`, and `learnings` fields are not empty |
 | Chrome version mismatch | Run `pip install --upgrade webdriver-manager` |
 
