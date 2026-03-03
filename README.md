@@ -19,7 +19,7 @@ Automates filling the [VTU Internship Diary](https://vtu.internyet.in) using Sel
 pip install selenium webdriver-manager python-dotenv
 ```
 
-**2. Configure your credentials**
+**2. Configure your credentials (not needed now)**
 
 Create a `.env` file in the project root:
 
