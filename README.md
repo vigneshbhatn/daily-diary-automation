@@ -30,17 +30,17 @@ Edit `diary_data.json` with your internship details using the format below:
   {
     "date": "2026-02-03",
     "summary": "Worked on REST API integration and tested endpoints using Postman.",
+    "hours": "7",
     "reference_link": "https://docs.example.com/api",
     "learnings": "Understood how to handle authentication headers and parse JSON responses.",
-    "hours": "6.5",
     "skills": ["Python"]
   },
   {
     "date": "2026-02-04",
     "summary": "Set up CI/CD pipeline using GitHub Actions.",
+    "hours": "7",
     "reference_link": "https://docs.github.com/actions",
     "learnings": "Learned how to write workflow YAML files and trigger automated deployments.",
-    "hours": "7",
     "skills": ["git"]
   }
 ]
